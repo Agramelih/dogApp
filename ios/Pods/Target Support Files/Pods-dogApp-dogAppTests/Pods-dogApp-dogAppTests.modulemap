@@ -1,0 +1,6 @@
+module Pods_dogApp_dogAppTests {
+  umbrella header "Pods-dogApp-dogAppTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
