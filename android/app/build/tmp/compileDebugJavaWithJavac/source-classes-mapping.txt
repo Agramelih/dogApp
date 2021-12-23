@@ -1,0 +1,16 @@
+com/dogapp/MainApplication.java
+ com.dogapp.MainApplication
+ com.dogapp.MainApplication$1
+com/dogapp/BuildConfig.java
+ com.dogapp.BuildConfig
+com/dogapp/MainActivity.java
+ com.dogapp.MainActivity
+com/facebook/react/PackageList.java
+ com.facebook.react.PackageList
+com/dogapp/ReactNativeFlipper.java
+ com.dogapp.ReactNativeFlipper
+ com.dogapp.ReactNativeFlipper$1
+ com.dogapp.ReactNativeFlipper$2
+ com.dogapp.ReactNativeFlipper$2$1
+com/dogapp/SplashActivity.java
+ com.dogapp.SplashActivity

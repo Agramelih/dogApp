@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/dogApp.iml" filepath="$PROJECT_DIR$/.idea/modules/dogApp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/dogApp.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/dogApp.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1891605196/dogApp.react-native-safe-area-context.iml" filepath="$PROJECT_DIR$/.idea/modules/-1891605196/dogApp.react-native-safe-area-context.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1542785460/dogApp.react-native-screens.iml" filepath="$PROJECT_DIR$/.idea/modules/-1542785460/dogApp.react-native-screens.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/2146868375/dogApp.react-native-splash-screen.iml" filepath="$PROJECT_DIR$/.idea/modules/2146868375/dogApp.react-native-splash-screen.iml" />
+    </modules>
+  </component>
+</project>
