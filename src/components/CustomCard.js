@@ -8,6 +8,7 @@ import {
     View
 } from 'react-native'
 import { getFullDate } from "../utils";
+import FastImage from "react-native-fast-image";
 
 const CustomCard = ( { name, uri, onCardClick, thumbnail, createdDate } ) => {
     return(
@@ -18,7 +19,7 @@ const CustomCard = ( { name, uri, onCardClick, thumbnail, createdDate } ) => {
                 onPress = {onCardClick}
             >
                 <View style = {styles.titleContainer} >
-                    <Image 
+                    <FastImage 
                         source = { { uri: thumbnail } }
                         style = { styles.titleImage }
                     />
@@ -33,7 +34,7 @@ const CustomCard = ( { name, uri, onCardClick, thumbnail, createdDate } ) => {
                     
                 </View>
                 
-                <Image
+                <FastImage
                     style = { styles.image } 
                     source = {{uri: uri}}
                 /> 
@@ -46,6 +47,8 @@ const CustomCard = ( { name, uri, onCardClick, thumbnail, createdDate } ) => {
 const styles = StyleSheet.create({
     container: {
         marginTop: 20,
+        height: 400,
+        width: 300
     },
 
     titleContainer: {

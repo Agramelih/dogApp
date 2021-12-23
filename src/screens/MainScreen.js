@@ -27,11 +27,19 @@ const MainScreen = ( {navigation, setPersonData} ) => {
                     createdDate = {item.registered.date}
                 />
             )
-        }
+        }, []
     )
 
     const keyExtractor = useCallback(
-        (item) => item.login.uuid
+        (item) => item.login.uuid, []
+    )
+
+    const getItemLayout = useCallback(
+        (data, index) => ({
+            length: 400,
+            offset: 400 * index,
+            index
+        }), []
     )
 
     const onCardClick = ( item ) => {
@@ -54,6 +62,7 @@ const MainScreen = ( {navigation, setPersonData} ) => {
                         data = {arrayOfPeople}
                         renderItem = {renderItem}
                         keyExtractor = {keyExtractor}
+                        getItemLayout = {getItemLayout}
                         initialNumToRender={5}
                         maxToRenderPerBatch = {6}
                         windowSize = {5}
@@ -73,7 +82,8 @@ const styles = StyleSheet.create({
     },
 
     list: {
-        width: 300
+        width: 300,
+        height: 400
     }
   });
 
